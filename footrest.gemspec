@@ -26,7 +26,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "pry"
   gem.add_development_dependency "byebug"
 
-  gem.add_dependency "faraday", ">= 0.9.0", "< 1"
+  gem.add_dependency "faraday", ">= 0.17.1", "< 1"
   gem.add_dependency "activesupport", ">= 3.0.0"
 
   # Parses Link headers formatted according to RFC 5988 draft spec
